@@ -1,10 +1,22 @@
 {
 	"name":"simple-express-static-server",
 	"version":"0.0.1",
+	"description": "Simple static server, based on express",
+	"keywords": [
+		"nodejs",
+		"javascript",
+		"js",
+		"express",
+		"static"
+	],
 	"engines":[
 		"node >= 0.8.0"
 	],
 	"main":"server.js",
+	"preferGlobal": "true",
+	"bin": {
+		"simple-server": "server.js"
+	},
 	"dependencies":{
 		"express": "*"
 	},
